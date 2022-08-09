@@ -1,0 +1,31 @@
+//-------------------
+// SITO UFFICIALE
+// ------------------
+
+https://projectlombok.org/
+
+//-------------------
+// INSTALLAZIONE
+// ------------------
+
+scaricare il plugin come indicato in questa pagina (https://projectlombok.org/setup/eclipse) facendo:
+- help => install new software
+- Questa è la fonte: https://projectlombok.org/p2
+- aggiungere la dipendenza sul pom
+
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.22</version>
+	    <scope>provided</scope>
+	</dependency>
+	
+//-------------------
+// GUIDA
+// ------------------
+https://projectlombok.org/features/all
+https://auth0.com/blog/a-complete-guide-to-lombok/
+
+
+	
+	
